@@ -1,0 +1,114 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   }
+
+#horario{
+   padding-left: 10px;
+   padding-top: 100px;
+   }
+
+.hora{
+   width: 4.1%;
+   height: 65px;
+   border: solid black 1px;
+   background-color: rgb(255, 255, 255);
+   color: #3E59FB;
+   font-size: 15px;
+   float: left;
+   list-style-type: none;
+   border-radius: 10%;
+   padding-top: 20px;
+   }
+
+#motos{
+   padding-left: 50px;
+   padding-top: 100px;
+   }
+
+.moto{
+   width: 65px;
+   height: 65px;
+   border: solid black 1px;
+   background-color:  #26ee11 ;
+   color: black;
+   font-size: 20px;
+   float: left;
+   list-style-type: none;
+   border-radius: 100%;
+   padding-top: 20px;
+   }
+
+#H1::before{
+   content: "8:00";
+   }
+#H2::after{
+   content: "8:30";
+   }
+#H3::after{
+   content: "9:00";
+   }
+#H4::before{
+   content: "9:30";
+   }
+#H5::after{
+   content: "10:00";
+   }
+#H6::after{
+   content: "10:30";
+   }
+#H7::after{
+   content: "11:00";
+   }
+#H8::before{
+   content: "11:30";
+   }
+#H9::after{
+   content: "12:00";
+   }
+#H10::after{
+   content: "12:30";
+   }
+#H11::after{
+   content: "13:00";
+   }
+#H12::before{
+   content: "13:30";
+   }
+#H13::after{
+   content: "14:00";
+   }
+#H14::after{
+   content: "14:30";
+   }
+#H15::after{
+   content: "15:00";
+   }
+#H16::before{
+   content: "15:30";
+   }
+#H17::after{
+   content: "16:00";
+   }
+#H18::after{
+   content: "16:30";
+   }
+#H19::after{
+   content: "17:00";
+   }
+ #H20::before{
+   content: "17:30";
+   }
+#H21::after{
+   content: "18:00";
+   }
+#H22::after{
+   content: "18:30";
+   }
+#H23::after{
+   content: "19:00";
+   }
+#H24::after{
+   content: "19:30";
+   }
